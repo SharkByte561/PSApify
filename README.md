@@ -23,8 +23,21 @@ Import-Module PSAPify
 ### Run an Apify Actor and Get Results
 
 ```powershell
-$input = @{ foo = 'bar' }
-Invoke-Apify -Id 'apify/hello-world' -RunInput $input
+$input = @"
+{
+    "location": "United States",
+    "proxy": {
+        "useApifyProxy": true,
+        "apifyProxyGroups": [
+            "RESIDENTIAL"
+        ]
+    },
+    "publishedAt": "r2592000",
+    "rows": 5,
+    "title": "SEO"
+}
+"@
+Invoke-Apify -Id 'BHzefUZlZRKWxkTck' -RunInput $input
 ```
 
 ### Export Data to n8n Workflow (Object/Array)
