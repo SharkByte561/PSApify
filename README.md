@@ -2,8 +2,8 @@
 
 [![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/PSAPify)](https://www.powershellgallery.com/packages/PSAPify)
 [![PowerShell Gallery](https://img.shields.io/powershellgallery/dt/PSAPify)](https://www.powershellgallery.com/packages/PSAPify)
-[![GitHub license](https://img.shields.io/github/license/microsoft/PSAPify)](https://github.com/microsoft/PSAPify/blob/main/LICENSE)
-<!-- [![Build Status](https://img.shields.io/github/workflow/status/microsoft/PSAPify/main)](https://github.com/microsoft/PSAPify/actions) -->
+[![GitHub license](https://img.shields.io/github/license/SharkByte561/PSAPify)](https://github.com/SharkByte561/PSAPify/blob/main/LICENSE)
+<!-- [![Build Status](https://img.shields.io/github/workflow/status/SharkByte561/PSAPify/main)](https://github.com/SharkByte561/PSAPify/actions) -->
 
 ## Video Demo Walkthrough
 
